@@ -198,3 +198,25 @@ li a {
     padding: .7em 2em;
   }
 }
+
+@media (min-width: 1300px) {
+  .main__left--title {
+    right: 23.5em;
+  }
+  .main__left--header {
+    position: absolute;
+    top: 300px;
+  }
+  .main__left--header span {
+    display: block;
+  }
+  .main__left--header h3 {
+    margin: 0;
+    font-size: 4em;
+    line-height: 1.2;
+  }
+  .main__left--header .btn {
+    margin-top: 2em;
+    padding: .7em 2em;
+  }
+}

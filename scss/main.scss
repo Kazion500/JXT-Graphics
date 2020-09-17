@@ -208,3 +208,36 @@ li a{
         }
     }
 }
+
+@media(min-width:1300px){
+    .main{
+
+        &__left{
+
+            &--title{
+                right: 23.5em;
+            }
+        }
+
+        &__left--header{
+
+            position: absolute;
+            top: 300px;
+
+            span{
+                display: block;
+            }
+
+            h3{
+                margin: 0;
+                font-size: 4em;
+                line-height: 1.2;
+            }
+    
+            .btn{
+                margin-top: 2em;
+                padding: .7em 2em;
+            }
+        }
+    }
+}
